@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Assignment 3</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Covid-19 Tracker</h1>
+        <input type="text" class="inputElement">
+        <button class="btn">Get Data</button>
+        <br>
+        <div id="container">
+            <div class="activeCasesDiv">
+                <br>
+                <i class="fa-solid fa-virus-covid fa-2xl"></i>
+                <h4>Active Cases</h4>
+                <p id="active-cases">0</p>
+            </div>
+            <div class="criticalCasesDiv">
+                <br>
+                <i class="fa-solid fa-heart-pulse fa-2xl"></i>
+                <h4>Critical Cases</h4>
+                <p id="critical-cases">0</p>
+            </div>
+            <div class="recoveredCasesDiv">
+                <br>
+                <i class="fa-solid fa-house-medical-circle-check fa-2xl"></i>
+                <h4>Recovered Cases</h4>
+                <p id="recovered-cases">0</p>
+            </div>
+        </div>
+        <br>
+        <div id="container">
+            <div class="totalCasesDiv">
+                <br>
+                <i class="fa-solid fa-head-side-virus fa-2xl"></i>
+                <h4>Total Cases</h4>
+                <p id="total-cases">0</p>
+            </div>
+            <div class="totalDeathsDiv">
+                <br>
+                <i class="fa-solid fa-book-skull fa-2xl"></i>
+                <h4>Total Deaths</h4>
+                <p id="total-deaths">0</p>
+            </div>
+            <div class="totalTestsDiv">
+                <br>
+                <i class="fa-solid fa-vial-circle-check fa-2xl"></i>
+                <h4>Total Tests</h4>
+                <p id="total-tests">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b3ce577b6f.js" crossorigin="anonymous"></script>
+</body>
+</html>
